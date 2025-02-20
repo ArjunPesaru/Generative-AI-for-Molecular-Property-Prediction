@@ -1,0 +1,12 @@
+# Core Libraries
+torch
+torchvision
+numpy
+pandas
+scikit-learn
+matplotlib
+streamlit
+transformers
+rdkit
+selfies
+scikit-optimize
