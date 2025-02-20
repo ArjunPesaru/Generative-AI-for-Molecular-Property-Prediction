@@ -87,3 +87,14 @@ if st.button("Optimize Molecule"):
             st.warning("⚠️ Optimization failed. Try again.")
     except Exception as e:
         st.error(f"❌ Error optimizing molecule: {e}")
+
+# Display developer credit clearly
+st.markdown(
+    """
+    <hr>
+    <div style="text-align: center; font-size: 20px; font-weight: bold;">
+        Developed by <span style="color: blue;">Arjun Pesaru</span>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
